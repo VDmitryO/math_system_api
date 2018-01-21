@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Для запуска приложения необходимо выполнить следующие команды:
 
-Things you may want to cover:
+1. bundle install 
 
-* Ruby version
+2. rake db:create db:migrate
 
-* System dependencies
+3. rake db:seed (сгенерирует тестового пользователя test@mail.ru с паролем 1111)
 
-* Configuration
+4. rails s
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Далее необходимо запустить клиентское приложение https://github.com/VDmitryO/math_system
